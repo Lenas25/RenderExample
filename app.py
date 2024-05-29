@@ -230,5 +230,5 @@ api.add_resource(TrabajadorController,'/api/trabajadores')
 api.add_resource(TrabajadorUnitarioController,'/api/trabajador/<int:id>')
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+    # app.run(debug=True)
